@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     console.log('pet generated', animal);
     //empty field
-    $('#pets-form').children('input[type=text]').val('');
+    $('#animal-creator').children('input[type=text]').val('');
     //send new animal to database
     $.post('/animals', animal, postAnimalResponse);
 
