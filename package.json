@@ -1,0 +1,22 @@
+{
+  "name": "week-4-assessment",
+  "version": "1.0.0",
+  "description": "2.5hours to create a working site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "keywords": [
+    "zoo",
+    "full",
+    "stack"
+  ],
+  "author": "Zach Kusz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "pg": "^4.5.5"
+  }
+}
